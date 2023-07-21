@@ -123,9 +123,7 @@ main {
 
 .image-container {
     position: relative;
-    display: block;
     margin-top: 1.5rem;
-    padding: 0;
 }
 
 .image-container img {
@@ -135,46 +133,77 @@ main {
     border-radius: 0.3rem;
 }
 
+/* styles.css */
 
-.scroll-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: .625rem;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, 0.5);
-}
-
-.scroll-text::before {
-    content: "";
+.overlay {
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
 }
 
-.scroll-text:hover {
-    opacity: 1;
+.reservation-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.scroll-text button {
-    border: none;
+.reservation-form input,
+.reservation-form button {
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 14px;
+    background-color: transparent;
     color: white;
-    padding: .625rem 1.25rem;
-    font-size: 1rem;
+    margin-bottom: 1.5rem;
 }
 
-.scroll-text:hover {
-    filter: brightness(60%);
+.dropdown {
+    position: relative;
+    width: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.dropdown select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+option {
+    background-color: white;
+    color: black;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#datePicker:hover {
+    background-color: white;
+    color: black;
+}
+
+#timePicker:hover {
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
 }
 
 /* About us section styling */

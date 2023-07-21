@@ -42,7 +42,7 @@
                 </li>
 
                 <li>
-                    <a href="reservation.html">
+                    <a href="#reservations">
                         Reserveren
                     </a>
                 </li>
@@ -82,9 +82,35 @@
                 </div>
             </div>
 
-            <div class="image-container">
-                <img src="assets/images/bistro.svg" alt="Afbeelding">
-                <div class="scroll-text">Reserveer nu</div>
+            <div class="image-container" id="reservations">
+                <img src="assets/images/bistro.svg" alt="afbeelding">
+
+                <div class="overlay">
+                    <div class="reservation-form">
+                        <div class="dropdown">
+                            <select>
+                                <option value="" disabled selected hidden>Aantal personen</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+
+                        <input type="text" placeholder="Voor- en achternaam">
+
+                        <input type="date" id="datePicker">
+
+                        <input type="time" id="timePicker">
+
+                        <button>Reserveer</button>
+                    </div>
+                </div>
             </div>
 
             <div class="about-us">
@@ -95,15 +121,21 @@
                     <div class="about-us__left">
                         <img src="assets/images/bistro-team.svg" alt="Afbeelding">
                     </div>
-    
+
                     <div class="about-us__right__text">
                         <p>
-                            Welkom bij Bistro Chez PGM, een charmant restaurant in het hart van de stad Oudenaarde. Geniet van heerlijke
-                            gerechten bereid door ons getalenteerde team van gepassioneerde chefs. Onze menukaart biedt een mix
-                            van klassieke Franse gerechten en creatieve fusioncreaties, perfect voor het hele gezin. We streven
-                            ernaar om elke gast persoonlijke en attente service te bieden, zodat uw eetervaring onvergetelijk
-                            wordt. Kom langs voor een romantisch diner, zakelijke bijeenkomst of feestelijke gelegenheid en laat
-                            ons u verwennen met uitstekend eten en een uitgebreide wijnkaart. Reserveer vandaag nog uw tafel bij
+                            Welkom bij Bistro Chez PGM, een charmant restaurant in het hart van de stad Oudenaarde.
+                            Geniet van heerlijke
+                            gerechten bereid door ons getalenteerde team van gepassioneerde chefs. Onze menukaart biedt
+                            een mix
+                            van klassieke Franse gerechten en creatieve fusioncreaties, perfect voor het hele gezin. We
+                            streven
+                            ernaar om elke gast persoonlijke en attente service te bieden, zodat uw eetervaring
+                            onvergetelijk
+                            wordt. Kom langs voor een romantisch diner, zakelijke bijeenkomst of feestelijke gelegenheid
+                            en laat
+                            ons u verwennen met uitstekend eten en een uitgebreide wijnkaart. Reserveer vandaag nog uw
+                            tafel bij
                             Bistro Chez PGM en geniet van een onvergetelijke culinaire ervaring.
                         </p>
                     </div>
@@ -225,8 +257,6 @@
             </div>
         </div>
     </footer>
-
-    <script src="js/main.js"></script>
 </body>
 
 </html>
