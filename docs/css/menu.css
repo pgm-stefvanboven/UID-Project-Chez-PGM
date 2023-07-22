@@ -1,0 +1,106 @@
+/* Header styling present in the main.css file */
+
+/* Menu styling */
+.menu-container__up__content__left img,
+.menu-container__down__content__right img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.menu-container__up__content__left img {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+..menu-container__down__content__right img {
+    margin-right: 1.5rem;
+}
+
+.menu-container__up__content {
+  display: flex;
+  align-items: center;
+}
+
+.menu-container__up__content__right__title,
+.menu-container__down__content__left__title {
+    text-align: center;
+}
+
+.menu-container__down__content__left__title {
+    margin-left: 2.5rem;
+}
+
+.menu-container__up__content__left {
+  flex: 0 0 40%; 
+  margin-right: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.menu-container__up__content__right {
+  flex: 1 1 60%; 
+}
+
+/* Flexbox-layout voor het onderste gedeelte */
+.menu-container__down__content {
+  display: flex;
+  align-items: center;
+}
+
+.menu-container__down__content__left {
+  flex: 1 1 60%;
+}
+
+.menu-container__down__content__right {
+  flex: 0 0 40%;
+  margin-right: 20px; 
+}
+
+.menu-container__down__content__left__menu-list__item {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.menu-container__up__content__right__menu-list li,
+.menu-container__down__content__left__menu-list li {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+hr {
+    width: 25%;
+    transform: translate(150%, 0);
+}
+
+.last-line {
+    margin-bottom: 1.5rem;
+}
+
+.menu-container__up__content__right__menu-list ul,
+.menu-container__down__content__left__menu-list ul {
+  list-style: none;
+}
+
+.menu-container__up__content__right__menu-list__item__price p {
+  text-align: right;
+}
+
+.menu-container__up__content__right__menu-list__item {
+  display: table;
+  width: 95%;
+}
+
+.menu-container__up__content__right__menu-list__item__title {
+  display: table-cell;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.menu-container__up__content__right__menu-list__item__price {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+}
+
+/* Footer styling present in the main.css file */
