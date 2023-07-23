@@ -144,6 +144,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
 }
 
 .reservation-form {
@@ -221,6 +222,7 @@ button:hover {
 .about-us__left img {
     max-width: 100%;
     height: auto;
+    border-radius: 0.5rem;
 }
 
 .about-us__right__text {
