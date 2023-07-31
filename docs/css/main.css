@@ -216,7 +216,6 @@ button:hover {
 .about-us__content {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-gap: 3.4375rem;
 }
 
 .about-us__left img {
@@ -229,7 +228,7 @@ button:hover {
     display: flex;
     align-items: center;
     padding: 3.4375rem;
-    margin: 0;
+    max-width: 90.5%;
 }
 
 

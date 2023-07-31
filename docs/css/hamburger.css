@@ -1,0 +1,128 @@
+/* Header styling present in the main.css file */
+
+/* Hamburger detail page styling */
+.hamb-container {
+    max-width: 490px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hamb-content {
+    margin-bottom: 20px;
+}
+
+.hamb-content__image img {
+    max-width: 300px;
+    border-radius: 3%;
+}
+
+.hamb-content__info h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+.hamb-content__description h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hamb-content__description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Opmaak voor de ingrediëntenlijst */
+.hamb-content__ingredients h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hamb-content__ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.hamb-content__ingredients li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Opmaak voor de reserveersectie */
+.hamb-content__reservation p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.hamb-content__reservation a {
+    display: inline-block;
+    background-color: #f08000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.hamb-content__reservation a:hover {
+    background-color: #d06000;
+}
+
+/* Opmaak voor de reviewssectie */
+.hamb-content__reviews h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hamb-content__reviews__review {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.hamb-content__reviews__review__info h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.hamb-content__reviews__review__info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Opmaak voor de relevante gerechten sectie */
+.hamb-content__relevant h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hamb-content__relevant__products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hamb-content__relevant__products__product {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 10px;
+}
+
+.hamb-content__relevant__products__product a {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.hamb-content__relevant__products__product img {
+    max-width: 100%;
+    border-radius: 3%;
+}
+
+.hamb-content__relevant__products__product h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Footer styling present in the main.css file */
