@@ -23,6 +23,10 @@
     margin-top: 0.5rem;
 }
 
+.hamb-content__description {
+    margin-top: 24px;
+}
+
 .hamb-content__description h3 {
     font-size: 18px;
     margin: 10px 0;
@@ -34,6 +38,10 @@
 }
 
 /* Opmaak voor de ingrediëntenlijst */
+.hamb-content__ingredients {
+    margin-top: 24px;
+}
+
 .hamb-content__ingredients h3 {
     font-size: 18px;
     margin: 10px 0;
@@ -50,9 +58,13 @@
 }
 
 /* Opmaak voor de reserveersectie */
+.hamb-content__reservation {
+    margin-top: 24px;
+}
+
 .hamb-content__reservation p {
     font-size: 16px;
-    margin: 10px 0;
+    margin: .3125rem 0;
 }
 
 .hamb-content__reservation a {
@@ -71,6 +83,10 @@
 }
 
 /* Opmaak voor de reviewssectie */
+.hamb-content__reviews {
+    margin-top: 24px;
+}
+
 .hamb-content__reviews h3 {
     font-size: 18px;
     margin: 10px 0;
@@ -93,6 +109,10 @@
 }
 
 /* Opmaak voor de relevante gerechten sectie */
+.hamb-content__relevant {
+    margin-top: 24px;
+}
+
 .hamb-content__relevant h3 {
     font-size: 18px;
     margin: 10px 0;
@@ -101,18 +121,23 @@
 .hamb-content__relevant__products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .hamb-content__relevant__products__product {
     flex-basis: calc(33.33% - 10px);
     margin-bottom: 10px;
+    margin-right: 1.5rem;
 }
 
 .hamb-content__relevant__products__product a {
     display: block;
     text-align: center;
     margin-bottom: 5px;
+    color: black;
+}
+
+.hamb-content__relevant__products__product a:hover {
+    text-decoration: none;
 }
 
 .hamb-content__relevant__products__product img {

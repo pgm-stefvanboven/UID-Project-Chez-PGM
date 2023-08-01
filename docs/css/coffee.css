@@ -1,0 +1,153 @@
+/* Header styling present in the main.css file */
+
+/* Coffee detail page styling */
+.coffee-container {
+    max-width: 490px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.coffee-content {
+    margin-bottom: 20px;
+}
+
+.coffee-content__image img {
+    max-width: 300px;
+    border-radius: 3%;
+}
+
+.coffee-content__info h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+.coffee-content__description {
+    margin-top: 24px;
+}
+
+.coffee-content__description h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.coffee-content__description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Opmaak voor de ingrediëntenlijst */
+.coffee-content__ingredients {
+    margin-top: 24px;
+}
+
+.coffee-content__ingredients h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.coffee-content__ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.coffee-content__ingredients li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Opmaak voor de reserveersectie */
+.coffee-content__reservation {
+    margin-top: 24px;
+}
+
+.coffee-content__reservation p {
+    font-size: 16px;
+    margin: .3125rem 0;
+}
+
+.coffee-content__reservation a {
+    display: inline-block;
+    background-color: #f08000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.coffee-content__reservation a:hover {
+    background-color: #d06000;
+}
+
+/* Opmaak voor de reviewssectie */
+.coffee-content__reviews {
+    margin-top: 24px;
+}
+
+.coffee-content__reviews h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.coffee-content__reviews__review {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.coffee-content__reviews__review__info h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.coffee-content__reviews__review__info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Opmaak voor de relevante gerechten sectie */
+.coffee-content__relevant {
+    margin-top: 24px;
+}
+
+.coffee-content__relevant h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.coffee-content__relevant__drinks {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.coffee-content__relevant__drinks__drink {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 10px;
+    margin-right: 1.5rem;
+}
+
+.coffee-content__relevant__drinks__drink a {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.coffee-content__relevant__drinks__drink a:hover {
+    text-decoration: none;
+}
+
+.coffee-content__relevant__drinks__drink img {
+    max-width: 100%;
+    border-radius: 3%;
+}
+
+.coffee-content__relevant__drinks__drink h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Footer styling present in the main.css file */

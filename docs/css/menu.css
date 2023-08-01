@@ -61,9 +61,25 @@
   margin-right: 20px; 
 }
 
+.menu-container__down__content__left__menu-list li {
+  margin-top: 2.5rem;
+}
+
 .menu-container__down__content__left__menu-list__item {
-  margin-top: 1.4rem;
-  text-align: center;
+  display: table;
+  width: 95%;
+}
+
+.menu-container__down__content__left__menu-list__item__title {
+  display: table-cell;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.menu-container__down__content__left__menu-list__item__price {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
 }
 
 .detail-link {
@@ -80,7 +96,8 @@ hr {
   transform: translate(150%, 0);
 }
 
-.coffee-line {
+.coffee-line,
+.burger-line {
   width: 95%;
   transform: translate(0%, 0);
   margin-top: 0.1rem;
@@ -91,8 +108,7 @@ hr {
   list-style: none;
 }
 
-.menu-container__up__content__right__menu-list li,
-.menu-container__down__content__left__menu-list li {
+.menu-container__up__content__right__menu-list li {
   margin-bottom: .625rem;
 }
 
