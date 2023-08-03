@@ -17,7 +17,6 @@
 }
 
 .coffee-content__info h1 {
-    font-size: 24px;
     margin: 0;
     padding: 0;
     margin-top: 0.5rem;
@@ -28,7 +27,6 @@
 }
 
 .coffee-content__description h3 {
-    font-size: 18px;
     margin: 10px 0;
 }
 
@@ -43,7 +41,6 @@
 }
 
 .coffee-content__ingredients h3 {
-    font-size: 18px;
     margin: 10px 0;
 }
 
@@ -63,23 +60,27 @@
 }
 
 .coffee-content__reservation p {
-    font-size: 16px;
     margin: .3125rem 0;
 }
 
 .coffee-content__reservation a {
     display: inline-block;
-    background-color: #f08000;
-    color: white;
+    background-color: transparent;
+    color: #964B00;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 16px;
+    border: 1px solid #964B00;
     margin-top: 10px;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 1rem;
+    transition: color 0.3s ease;
 }
 
 .coffee-content__reservation a:hover {
-    background-color: #d06000;
+    background-color: #FFFDD0;
+    color: #E2725B;
 }
 
 /* Opmaak voor de reviewssectie */
@@ -88,7 +89,6 @@
 }
 
 .coffee-content__reviews h3 {
-    font-size: 18px;
     margin: 10px 0;
 }
 
@@ -99,22 +99,22 @@
 }
 
 .coffee-content__reviews__review__info h4 {
-    font-size: 16px;
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
 }
 
 .coffee-content__reviews__review__info p {
-    font-size: 14px;
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-top: 0.9rem;
 }
 
-/* Opmaak voor de relevante gerechten sectie */
+/* Opmaak voor de relevante dranken sectie */
 .coffee-content__relevant {
     margin-top: 24px;
 }
 
 .coffee-content__relevant h3 {
-    font-size: 18px;
     margin: 10px 0;
 }
 
@@ -133,11 +133,16 @@
     display: block;
     text-align: center;
     margin-bottom: 5px;
-    color: black;
+    color: #E2725B;
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .coffee-content__relevant__drinks__drink a:hover {
-    text-decoration: none;
+    color: #FFE7B3;
 }
 
 .coffee-content__relevant__drinks__drink img {

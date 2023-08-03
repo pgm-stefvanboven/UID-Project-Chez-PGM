@@ -52,7 +52,7 @@
 
     <div class="container">
         <main>
-            <h2 class="our-dishes">Onze top gerechten</h2>
+            <h2 class="our-dishes">Onze top producten</h2>
 
             <div class="carousel">
                 <div class="slides">
@@ -60,16 +60,20 @@
                         <a href="hamburger.html">
                             <img src="assets/images/burger.jpg" alt="Image 1">
                             <div class="caption">
-                                Huisgemaakte gefrituurde kiphamburger
+                                <p>
+                                    Huisgemaakte gefrituurde kiphamburger
+                                </p>
                             </div>
                         </a>
                     </div>
 
                     <div class="slide">
-                        <a href="hamburger.html">
-                            <img src="assets/images/Steak-frites.jpg" alt="Image 2">
+                        <a href="coffee.html">
+                            <img src="assets/images/Icecoffee.jpg" alt="Image 2">
                             <div class="caption">
-                                Steak met frites
+                                <p>
+                                    Ijskoffie
+                                </p>
                             </div>
                         </a>
                     </div>
@@ -78,67 +82,91 @@
                         <a href="hamburger.html">
                             <img src="assets/images/Zalmfilet.jpg" alt="Image 3">
                             <div class="caption">
-                                Zalmfilet in een romige dillesaus met gebakken aardappelen
+                                <p>
+                                    Zalmfilet in een romige dillesaus met gebakken aardappelen
+                                </p>
                             </div>
                         </a>
                     </div>
 
                     <div class="slide">
-                        <a href="hamburger.html">
-                            <img src="assets/images/caesar-salade.jpg" alt="Image 4">
+                        <a href="coffee.html">
+                            <img src="assets/images/Chocolademelk.jpg" alt="Image 4">
                             <div class="caption">
-                                Caesar salade met gegrilde kip en advocado
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="slide">
-                        <a href="hamburger.html">
-                            <img src="assets/images/Coq-au-Vin.webp" alt="Image 5">
-                            <div class="caption">
-                                Coq au Vin
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="slide">
-                        <a href="hamburger.html">
-                            <img src="assets/images/cake.jpg" alt="Image 6">
-                            <div class="caption">
-                                Raspberry cake
+                                Chocolademelk special
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="image-container" id="reservations">
-                <img src="assets/images/bistro.svg" alt="afbeelding">
-
+            <div class="reservation-container" id="reservations">
                 <div class="overlay">
                     <div class="reservation-form">
                         <div class="dropdown">
                             <select>
-                                <option value="" disabled selected hidden>Aantal personen</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
+                                <option value="" disabled selected hidden>
+                                    <p>
+                                        Aantal personen
+                                    </p>
+                                </option>
+                                <option value="2">
+                                    <p>
+                                        2
+                                    </p>
+                                </option>
+                                <option value="3">
+                                    <p>
+                                        3
+                                    </p>
+                                </option>
+                                <option value="4">
+                                    <p>
+                                        4
+                                    </p>
+                                </option>
+                                <option value="5">
+                                    <p>
+                                        5
+                                    </p>
+                                </option>
+                                <option value="6">
+                                    <p>
+                                        6
+                                    </p>
+                                </option>
+                                <option value="7">
+                                    <p>
+                                        7
+                                    </p>
+                                </option>
+                                <option value="8">
+                                    <p>
+                                        8
+                                    </p>
+                                </option>
+                                <option value="9">
+                                    <p>
+                                        9
+                                    </p>
+                                </option>
+                                <option value="10">
+                                    <p>
+                                        10
+                                    </p>
+                                </option>
                             </select>
                         </div>
 
-                        <input type="text" placeholder="Voor- en achternaam">
+                        <input id="name" type="text" placeholder="Voor- en achternaam">
 
                         <input type="date" id="datePicker">
 
                         <input type="time" id="timePicker">
 
-                        <button>Reserveer</button>
+                        <button id="button">
+                            Reserveer
+                        </button>
                     </div>
                 </div>
             </div>
@@ -214,7 +242,7 @@
                         Maandag - Vrijdag: 10:30 - 22:00
                     </p>
 
-                    <p>
+                    <p class="footer-info__left__weekendhours">
                         Zaterdag - Zondag: 11:00 - 23:00
                     </p>
                 </div>
@@ -262,7 +290,7 @@
                         <img src="assets/images/facebook.svg" alt="Facebook">
                     </a>
 
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a class="instagram" href="https://www.instagram.com/" target="_blank">
                         <img src="assets/images/instagram.svg" alt="Instagram">
                     </a>
                 </div>
@@ -281,8 +309,13 @@
                     Made by <a href="https://github.com/pgm-stefvanboven" target="_blank">Stef Van Boven</a>
                 </p>
                 <div class="footer-credits__additional">
-                    <p>privacy</p>
-                    <p>cookies</p>
+                    <p>
+                        privacy
+                    </p>
+
+                    <p>
+                        cookies
+                    </p>
                 </div>
             </div>
         </div>

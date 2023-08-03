@@ -1,6 +1,83 @@
+/*font for titles, subtitles, navigation-items*/
+@font-face {
+    font-family: 'Raleway';
+    src: url('../assets/fonts/Raleway/Raleway-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Raleway/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../assets/fonts/Raleway/Raleway-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Raleway/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* font for the texts */
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../assets/fonts/Merriweather/Merriweather-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Merriweather/Merriweather-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* font menu-items */
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../assets/fonts/Merriweather-Bold.woff2') format('woff2'),
+      url('../assets/fonts/Merriweather-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+/* font reviews */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/Open_Sans/OpenSans-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Open_Sans/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/Open_Sans/OpenSans-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Open_Sans/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #FFFDD0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #E2725B;
+}
+
+p {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
 /* Header styling */
 header {
-    background-color: #f2f2f2;
+    background-color: #964B00;
     padding-bottom: 0.625rem;
     text-align: center;
 }
@@ -39,9 +116,20 @@ nav ul li {
     margin-right: .625rem;
 }
 
+li {
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-style: normal;
+}
+
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #E2725B;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFE7B3;
 }
 
 /* Main styling */
@@ -97,10 +185,9 @@ main {
     padding: .625rem;
     opacity: 0;
     transition: opacity 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    background-color: #964B00;
+    color: #FFFDD0;
     text-align: left;
-    font-size: .875rem;
 }
 
 .slide:hover .caption {
@@ -110,102 +197,92 @@ main {
 /* Scrollbar styling */
 .carousel::-webkit-scrollbar {
     width: .625rem;
-    background-color: #f1f1f1;
+    background-color: #FFFDE1;
 }
 
 .carousel::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: .3125rem;
+    background-color: #E2725B;
+    border-radius: 10px;
 }
 
 .carousel::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
+    background-color: #E2725B;
 }
 
-.image-container {
+.reservation-container {
     position: relative;
-    margin-top: 1.5rem;
-}
-
-.image-container img {
-    width: 100vw;
-    height: auto;
-    margin: 0;
-    border-radius: 0.3rem;
-}
-
-/* styles.css */
-
-.overlay {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 12.5rem;
+    margin-bottom: -2rem;
 }
 
 .reservation-form {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
 .reservation-form input,
 .reservation-form button {
     padding: 8px;
-    border: 1px solid white;
+    border: 1px solid #964B00;
     border-radius: 5px;
     width: 200px;
-    font-size: 14px;
     background-color: transparent;
-    color: white;
+    color: #964B00;
     margin-bottom: 1.5rem;
+}
+
+#name,
+#button {
+    padding: 9px;
 }
 
 .dropdown {
     position: relative;
     width: 200px;
     margin-bottom: 1.5rem;
+    margin-right: 1rem;
 }
 
 .dropdown select {
     width: 100%;
-    padding: 10px;
-    border: 2px solid #ccc;
+    padding: 9px;
+    border: 1px solid #964B00;
     border-radius: 5px;
-    font-size: 16px;
-    background-color: transparent;
-    color: white;
     cursor: pointer;
 }
 
-option {
-    background-color: white;
-    color: black;
+option,
+select,
+input,
+button {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #FFFDD0;
+    color: #964B00;
+    margin-right: 1rem;
 }
 
 input::placeholder {
-    color: white;
+    color: #964B00;
 }
 
 #datePicker:hover {
-    background-color: white;
-    color: black;
+    background-color: #FFFDD0;
+    color: #E2725B;
 }
 
 #timePicker:hover {
-    background-color: white;
-    color: black;
+    background-color: #FFFDD0;
+    color: #E2725B;
 }
 
 button:hover {
-    background-color: white;
-    color: black;
+    background-color: #FFFDD0;
+    color: #E2725B;
 }
 
 /* About us section styling */
@@ -235,7 +312,7 @@ button:hover {
 
 /* Footer styling */
 footer {
-    background-color: #f5f5f5;
+    background-color: #964B00;
     padding: 1.25rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -263,16 +340,25 @@ footer {
 /* Stijl voor de linkersectie van de footer */
 .footer-info__left {
     grid-column: 1;
+    margin-top: 1.8rem;
 }
 
 .footer-info__left__content {
     margin-right: 1.25rem;
+    color: #FFFDD0;
+}
+
+.footer-info__left__hours {
+    margin-top: 0.9rem;
 }
 
 .footer-info__left h3 {
-    font-size: 1.125rem;
     margin-top: .625rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 9px;
+}
+
+.footer-info__left__weekendhours {
+    margin-top: 0.3rem;
 }
 
 .footer-info__left ul {
@@ -286,18 +372,19 @@ footer {
 }
 
 .footer-info__left a {
-    color: #333;
+    color: #E2725B;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-info__left a:hover {
-    color: #ff0000;
+    color: #FFE7B3;
 }
 
 /* Stijl voor de rechtersectie van de footer */
 .footer-info__right {
     grid-column: 2;
+    margin-top: 1rem;
 }
 
 .footer-info__right__content {
@@ -312,16 +399,17 @@ footer {
 
 .footer-info__right p {
     margin-bottom: .3125rem;
+    color: #FFFDD0;
 }
 
 .footer-info__right a {
-    color: #333;
+    color: #FFFDD0;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-info__right a:hover {
-    color: #ff0000;
+    color: #FFE7B3;
 }
 
 /* Stijl voor de footer-social sectie */
@@ -344,12 +432,20 @@ footer {
     transition: transform 0.3s ease;
 }
 
+.instagram img {
+    width: 2.8125rem;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-top: -0.4rem;
+}
+
 .footer-social__icons img:hover {
     transform: scale(1.1);
 }
 
 .footer-social__rights {
     margin-top: .625rem;
+    color: #FFFDD0;
 }
 
 /* Stijl voor de footer-credits sectie */
@@ -365,16 +461,17 @@ footer {
     justify-content: center;
     align-items: center;
     gap: .625rem;
+    color: #FFFDD0;
 }
 
 .footer-credits__content a {
-    color: #333;
+    color: #FFFDD0;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-credits__content a:hover {
-    color: #ff0000;
+    color: #FFE7B3;
 }
 
 .footer-credits__additional {
