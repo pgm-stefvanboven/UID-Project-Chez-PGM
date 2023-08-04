@@ -1,4 +1,4 @@
-# User Interface Design: Bistro Chez PGM website (fictief)
+# User Interface Design: Bistro Chez PGM website (fictief project)
 
 # Inhoudsopgave
 Als opdracht voor het vak User Interface Design van de opleiding Graduaat programmeren aan de Arteveldehogeschool heb ik een website ontworpen en uitgewerkt voor de fictive Bistro Chez PGM.
