@@ -31,11 +31,11 @@
 @font-face {
     font-family: 'Merriweather';
     src: url('../assets/fonts/Merriweather-Bold.woff2') format('woff2'),
-      url('../assets/fonts/Merriweather-Bold.woff') format('woff');
+        url('../assets/fonts/Merriweather-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-  }
+}
 
 /* font reviews */
 @font-face {
@@ -476,42 +476,4 @@ footer {
 .footer-credits__additional {
     display: flex;
     gap: .625rem;
-}
-
-
-
-/* Media queries */
-@media screen and (max-width: 48rem) {
-    .carousel {
-        height: 25rem;
-    }
-
-    .carousel::-webkit-scrollbar {
-        display: none;
-    }
-
-    .carousel {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-    }
-
-    .slide {
-        flex: 0 0 calc(100% / 2);
-    }
-}
-
-@media screen and (max-width: 30rem) {
-    .carousel {
-        height: 18.75rem;
-    }
-
-    .slide {
-        flex: 0 0 calc(100% / 1);
-    }
-}
-
-@media screen and (max-width: 20rem) {
-    .carousel {
-        height: 12.5rem;
-    }
 }
