@@ -1,7 +1,7 @@
 # User Interface Design: Bistro Chez PGM website
 
 # Inhoudsopgave
-als opdracht voor het vak User Interface Design van de opleiding Graduaat programmeren aan de Arteveldehogeschool heb ik een website ontworpen en uitgewerkt voor de fictive Bistro Chez PGM.
+Als opdracht voor het vak User Interface Design van de opleiding Graduaat programmeren aan de Arteveldehogeschool heb ik een website ontworpen en uitgewerkt voor de fictive Bistro Chez PGM.
 
 # doelgroep
 De doelgroep van deze website zijn families die graag een hapje willen eten in een bistro en mooie herinneringen willen maken.
@@ -36,7 +36,7 @@ De detail pagina voor de dranken is een pagina waar de klant meer informatie kan
 De website is gemaakt met HTML en CSS.
 
 # Installatie
-De website kan bekeken worden op 2 manieren:
+- De website kan bekeken worden op 2 manieren:
 
 Met de broncode:
 1. Download de repository
@@ -45,7 +45,7 @@ Met de broncode:
 4. De website wordt geopend in je browser
 
 Live versie:
-klik op de link die u bij de about sectie kan vinden.
+- klik op de link die u bij de about sectie kan vinden.
 
 # Auteur
 - Stef Van Boven
